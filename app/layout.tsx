@@ -30,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${teko.variable} ${poppins.variable} antialiased`}>
-        <main className="w-full max-w-285 mx-auto overflow-hidden bg-white">
+        <main className="w-full max-w-360 mx-auto overflow-hidden bg-white">
           {children}
         </main>
         <Analytics />
