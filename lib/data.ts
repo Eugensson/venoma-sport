@@ -71,3 +71,52 @@ export const latestProducts = [
     price: 49.99,
   },
 ];
+
+export const categoryImages = [
+  { id: "1", src: "/assets/img/category/1.jpg", alt: "Category 1" },
+  { id: "2", src: "/assets/img/category/2.jpg", alt: "Category 2" },
+  { id: "3", src: "/assets/img/category/3.jpg", alt: "Category 3" },
+];
+
+export const categoryLinks = [
+  {
+    title: "Summer Inspiration",
+    items: [
+      "Summer Clothes",
+      "Summer Outfits",
+      "Summer Tops",
+      "Summer Hots",
+      "Summer Dresses",
+    ],
+  },
+  {
+    title: "Summer Casual",
+    items: [
+      "Crop Tops",
+      "Graphic Tees",
+      "White Tees",
+      "High Waisted Shorts",
+      "Short Shorts",
+    ],
+  },
+  {
+    title: "Summer Sports",
+    items: [
+      "Bike Shorts",
+      "Basketball Shorts",
+      "Plus-Size Swimwear",
+      "Running Sunglasses",
+      "Golf Shorts",
+    ],
+  },
+  {
+    title: "Summer Essentials",
+    items: [
+      "Summer Shoes",
+      "Summer Pants",
+      "Sleeveless Shirts",
+      "Sunglasses",
+      "Moisture-Wicking Shirts",
+    ],
+  },
+];
