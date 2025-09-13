@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Teko, Poppins } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
+
 import "./globals.css";
 
 const teko = Teko({
@@ -31,6 +33,7 @@ export default function RootLayout({
         <main className="w-full max-w-285 mx-auto overflow-hidden bg-white">
           {children}
         </main>
+        <Analytics />
       </body>
     </html>
   );
