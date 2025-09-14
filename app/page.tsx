@@ -11,7 +11,7 @@ import { Categories } from "@/components/categories";
 
 const Home = () => {
   return (
-    <section>
+    <>
       <TopBar />
       <Header />
       <Hero />
@@ -22,9 +22,7 @@ const Home = () => {
       <Cta />
       <Footer />
       <Copyright />
-
-      <div className="h-1000" />
-    </section>
+    </>
   );
 };
 

@@ -84,10 +84,10 @@ export const categoryLinks = [
   {
     title: "Summer Inspiration",
     items: [
-      "Summer Clothes",
+      "Summer Apparel",
       "Summer Outfits",
       "Summer Tops",
-      "Summer Hots",
+      "Summer Hats",
       "Summer Dresses",
     ],
   },
@@ -97,7 +97,7 @@ export const categoryLinks = [
       "Crop Tops",
       "Graphic Tees",
       "White Tees",
-      "High Waisted Shorts",
+      "High-Waist Shorts",
       "Short Shorts",
     ],
   },
@@ -123,6 +123,52 @@ export const categoryLinks = [
   },
 ];
 
+export const footerCategoryLinks = [
+  {
+    title: "Products",
+    items: [
+      "Shoes",
+      "Clothing",
+      "Accessories",
+      "Gift Cards",
+      "New Arrivals",
+      "Best Sellers",
+      "Sale",
+    ],
+  },
+  {
+    title: "Resources",
+    items: [
+      "Find a Store",
+      "Become a Member",
+      "Student Discounts",
+      "Send Us Feedback",
+      "FAQs", // замість "Golf Shorts"
+    ],
+  },
+  {
+    title: "Help",
+    items: [
+      "Get Help",
+      "Order Status",
+      "Delivery",
+      "Returns",
+      "Payment Options",
+      "Contact Us",
+    ],
+  },
+  {
+    title: "Company",
+    items: [
+      "About Venoma Sport",
+      "News",
+      "Careers",
+      "Investors",
+      "Sustainability",
+    ],
+  },
+];
+
 export const benefitsData: BenefitGroup[] = [
   {
     side: "left",
@@ -131,13 +177,13 @@ export const benefitsData: BenefitGroup[] = [
         icon: "/assets/icons/trophy.svg",
         alt: "Trophy icon",
         title: "Performance Excellence",
-        text: "Crafted from high-performance materials for unmatched durability and comfort.",
+        text: "Engineered from premium, high-performance materials to deliver unmatched durability, comfort, and support for every challenge.",
       },
       {
         icon: "/assets/icons/design.svg",
         alt: "Design icon",
         title: "Stylish Design",
-        text: "From classic essentials to cutting edge trends, our apparel blends fashion with function seamlessly.",
+        text: "From timeless essentials to cutting-edge trends, our apparel combines style and function seamlessly, keeping you ahead on and off the field.",
         extraClasses: "xl:max-w-80 xl:mr-auto",
       },
     ],
@@ -148,15 +194,15 @@ export const benefitsData: BenefitGroup[] = [
       {
         icon: "/assets/icons/build.svg",
         alt: "Wrench icon",
-        title: "Build to last",
-        text: "Designed to withstand the rigors of active lifestyles, ensuring longevity.",
+        title: "Built to Last",
+        text: "Rigorously tested to endure active lifestyles, ensuring long-lasting performance you can rely on.",
         alignRight: true,
       },
       {
         icon: "/assets/icons/check.svg",
         alt: "Check icon",
         title: "Wide Selection",
-        text: "Explore a diverse range of products tailored to meet every athlete`s meeds.",
+        text: "Discover a diverse range of products designed to meet every athlete's needs, from training gear to everyday essentials.",
         alignRight: true,
         extraClasses: "xl:max-w-72.5 xl:ml-auto",
       },
