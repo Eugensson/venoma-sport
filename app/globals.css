@@ -81,6 +81,10 @@ a.link-secondary {
   @apply size-13 flex items-center justify-center cursor-pointer;
 }
 
+.btn-primary {
+  @apply bg-primary hover:bg-primary/90 text-white transition-colors duration-300;
+}
+
 .btn-outline {
   @apply border border-grey-200;
 }
