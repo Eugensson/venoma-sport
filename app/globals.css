@@ -24,6 +24,8 @@
   --breakpoint-2xl: 1200px;
 
   --background-image-hero: url("/assets/img/hero/bg.png");
+  --background-image-benefits: url("/assets/img/benefits/bg.png");
+  --background-image-benefitsLogo: url("/assets/img/benefits/logo.png");
 }
 
 body {

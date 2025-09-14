@@ -1,3 +1,5 @@
+import { BenefitGroup } from "@/types";
+
 export const navLinks = [
   { name: "Man", href: "#" },
   { name: "Women", href: "#" },
@@ -117,6 +119,47 @@ export const categoryLinks = [
       "Sleeveless Shirts",
       "Sunglasses",
       "Moisture-Wicking Shirts",
+    ],
+  },
+];
+
+export const benefitsData: BenefitGroup[] = [
+  {
+    side: "left",
+    items: [
+      {
+        icon: "/assets/icons/trophy.svg",
+        alt: "Trophy icon",
+        title: "Performance Excellence",
+        text: "Crafted from high-performance materials for unmatched durability and comfort.",
+      },
+      {
+        icon: "/assets/icons/design.svg",
+        alt: "Design icon",
+        title: "Stylish Design",
+        text: "From classic essentials to cutting edge trends, our apparel blends fashion with function seamlessly.",
+        extraClasses: "xl:max-w-80 xl:mr-auto",
+      },
+    ],
+  },
+  {
+    side: "right",
+    items: [
+      {
+        icon: "/assets/icons/build.svg",
+        alt: "Wrench icon",
+        title: "Build to last",
+        text: "Designed to withstand the rigors of active lifestyles, ensuring longevity.",
+        alignRight: true,
+      },
+      {
+        icon: "/assets/icons/check.svg",
+        alt: "Check icon",
+        title: "Wide Selection",
+        text: "Explore a diverse range of products tailored to meet every athlete`s meeds.",
+        alignRight: true,
+        extraClasses: "xl:max-w-72.5 xl:ml-auto",
+      },
     ],
   },
 ];
